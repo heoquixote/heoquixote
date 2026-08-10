@@ -5,12 +5,14 @@
 </p>
 
 <p align="center">
-  Data · BI · AI Engineer &nbsp;|&nbsp; Author & Educator
+  Data · BI · AI Engineer &nbsp;|&nbsp; Tableau Certified Instructor &nbsp;|&nbsp; Author & Educator
 </p>
 
 <p align="center">
+  <a href="https://heoquixote.github.io/data-learners/"><img src="https://img.shields.io/badge/Data_Learners-교육_사이트-1F6FEB?style=flat-square&logo=googleclassroom&logoColor=white" alt="Data Learners"></a>
   <a href="https://h-ote.tistory.com/"><img src="https://img.shields.io/badge/Blog-h--ote.tistory.com-FF5A4A?style=flat-square&logo=tistory&logoColor=white" alt="Blog"></a>
-  <a href="https://github.com/heoquixote"><img src="https://img.shields.io/badge/GitHub-heoquixote-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.linkedin.com/in/hote/"><img src="https://img.shields.io/badge/LinkedIn-hote-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://public.tableau.com/app/profile/hote/vizzes"><img src="https://img.shields.io/badge/Tableau_Public-hote-E97627?style=flat-square&logo=tableau&logoColor=white" alt="Tableau Public"></a>
   <img src="https://komarev.com/ghpvc/?username=heoquixote&style=flat-square&color=4C8BF5" alt="Profile views">
 </p>
 
@@ -26,15 +28,36 @@
 
 - 📊 복잡한 데이터를 명확한 BI와 시각적 스토리로 바꿉니다.
 - 🤖 생성형 AI와 에이전트를 분석·개발 업무에 연결합니다.
-- 📚 SQL, 통계, 머신러닝, Tableau, Codex 실무서를 집필합니다.
+- 📚 SQL, 통계, 머신러닝, Tableau, Codex, n8n 실무서를 집필합니다.
+- 🎓 **Tableau Certified Instructor · 2× DataFam Rising Star**로, 『태블로를 활용한 데이터 시각화』를 집필했습니다.
 - 🧭 재현 가능한 분석과 바로 적용할 수 있는 예제를 지향합니다.
+
+## 🎓 Data Learners — 실무형 데이터 교육
+
+**[heoquixote.github.io/data-learners](https://heoquixote.github.io/data-learners/)**
+
+SQL, Python, Tableau, 통계, AI 자동화를 "실제 업무 문제와 프로젝트 중심으로" 가르치는 교육 브랜드입니다.
+**LEARN → BUILD → EXPLAIN → APPLY** 4단계 학습 시스템으로, 이해에서 결과물까지 완성하는 것을 목표로 합니다.
+
+| 과정 | 핵심 스킬 |
+|---|---|
+| Tableau 실무 시각화 | Data to Story, 대시보드 UX, Cloud 공유 |
+| SQL 데이터 분석 | Query to Insight, CTE, 케이스 분석 |
+| Python 데이터 워크 | Code to Analysis, pandas EDA·전처리 |
+| n8n 데이터 워크플로우 | Work to Flow, API·DB·AI 연결 자동화 |
+| 통계적 의사결정 | 가설검정·회귀·실험설계 |
+
+TeamSparta, Codeit, 국민대학교, LG전자, NHN, CJ Freshway 등 **12개 이상의 기관**에서 기업 교육·부트캠프·워크숍을 진행했습니다.
 
 ## Featured projects
 
 | Project | What it is | Focus |
 |---|---|---|
+| [Data Learners](https://github.com/heoquixote/data-learners) | 실무 프로젝트 기반 데이터 교육 사이트 | `Education` `SQL` `Tableau` `AI` |
 | [Tableau 실무 가이드](https://github.com/heoquixote/tableau-book) | 차트 작성부터 계산, 전처리, 대시보드, Cloud 공유까지 다루는 실무형 교재 | `Tableau` `BI` `Visualization` |
+| [머신러닝 기초](https://github.com/heoquixote/machine-learning-book) | 문제 정의부터 모델 평가·해석까지 다루는 머신러닝 입문서 | `Machine Learning` `Python` |
 | [통계 기초](https://github.com/heoquixote/statistics-book) | 기술통계부터 가설검정, 회귀, A/B 테스트까지 연결하는 입문서 | `Statistics` `Experiment` |
+| [n8n 데이터 워크플로우](https://github.com/heoquixote/n8n-book) | API·DB·AI를 연결하는 n8n 자동화 구축 가이드 | `n8n` `Automation` |
 | [Codex와 협업하는 개발 워크플로](https://github.com/heoquixote/developing-with-Codex) | 프롬프트부터 로컬 개발, 리뷰, 자동화, 운영까지 다루는 실전 가이드 | `Codex` `AI Agent` |
 | [예지보전 Action Center](https://github.com/heoquixote/predictive-maintenance-action-center) | 설비 데이터를 의사결정과 후속 조치로 연결하는 분석 제품 | `Predictive Maintenance` `Analytics` |
 | [투자 대시보드](https://github.com/heoquixote/invest-dashboard) | 투자 데이터를 탐색하고 핵심 지표를 모니터링하는 대시보드 | `Dashboard` `JavaScript` |
