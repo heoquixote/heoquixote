@@ -17,30 +17,50 @@
 from dataclasses import dataclass, field
 
 @dataclass
-class Hote:
-    name: str = "허진성 (Jinseong Heo)"
-    location: str = "Seoul, KR 🇰🇷"
-    roles: list = field(default_factory=lambda: [
-        "Data Analyst", "BI Engineer", "AI Workflow Builder", "Data Educator",
-    ])
-    community: list = field(default_factory=lambda: [
-        "Tableau Ambassador 2026·2027",
-        "n8n Ambassador",
-        "2× DataFam Rising Star",
-    ])
-    teaching: str = "1,000+ learners on Tableau, SQL, Python, ML, n8n"
-    writing: list = field(default_factory=lambda: [
-        "Data Visualization with Tableau (WikiDocs)",
-        "ADsP 수험서 공동 집필 (시대에듀)",
-    ])
-    motto: str = "좋은 분석은 숫자에서 끝나지 않고, 다음 행동을 분명하게 만든다."
+class DataLearners:
+    """배운 것을 실력으로, 실력을 결과로."""
 
-    def now(self) -> list[str]:
-        return [
-            "🏭 제조·품질 데이터 이상탐지 & 예지보전",
-            "⚙️ n8n + LLM 기반 데이터 워크플로 자동화",
-            "📚 실무형 데이터 교재와 강의 콘텐츠 제작",
-        ]
+    brand: str = "데이터러너즈 (Data Learners)"
+    instructor: str = "허진성 (Hote)"
+    site: str = "https://www.data-learners.com"
+    mission: str = "SQL, Python, Tableau, 통계, AI 자동화를 실제 업무 문제와 프로젝트 중심으로"
+
+    courses: dict = field(default_factory=lambda: {
+        "SQL 데이터 분석": "Query to Insight",
+        "Python 데이터 워크": "Code to Analysis",
+        "Tableau 실무 시각화": "Data to Story",
+        "n8n 데이터 워크플로우": "Work to Flow",
+        "통계적 의사결정": "수치 → 판단",
+        "머신러닝 실무 모델링": "데이터 → 예측",
+    })
+
+    learning_system: tuple = (
+        "LBL · 01 개념과 원리",
+        "LBL · 02 툴 사용법과 실습",
+        "PBL · 03 프로젝트 기획과 수행",
+        "PBL · 04 멘토링과 포트폴리오",
+    )
+
+    impact: dict = field(default_factory=lambda: {
+        "누적 수강생": "1,000+",
+        "기업·기관 교육": "50회+",
+        "KDT 내일배움캠프 NPS": 93.5,
+    })
+
+    instructor_profile: list = field(default_factory=lambda: [
+        "Tableau Ambassador 2026·2027",
+        "n8n Ambassador 2026·2027",
+        "ex) Salesforce Tableau Certified Instructor",
+        "『태블로를 활용한 데이터 시각화』 저자",
+    ])
+
+    worked_with: list = field(default_factory=lambda: [
+        "팀스파르타", "코드잇", "BDAI", "SeSAC", "국민대학교",
+        "Trailhead Academy", "LG전자", "NHN", "CJ프레시웨이", "삼성화재",
+    ])
+
+    def contact(self) -> str:
+        return "https://hote.app.n8n.cloud/form/edu-inquiry"
 ```
 
 ## 🛠️ Tech Stack
