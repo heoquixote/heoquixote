@@ -66,9 +66,9 @@ class DataLearners:
 ## 🛠️ Tech Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,postgres,sklearn,pytorch,js,html,css,swift&theme=dark" alt="Languages & ML" />
+  <img src="https://skillicons.dev/icons?i=python,postgres,sklearn,pytorch&theme=dark" alt="Languages & ML" />
   <br/>
-  <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,notion,obsidian,vercel&theme=dark" alt="Tools" />
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,notion,obsidian&theme=dark" alt="Tools" />
 </p>
 
 <p>
