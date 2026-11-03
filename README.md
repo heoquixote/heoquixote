@@ -1,94 +1,99 @@
-<h1 align="center">안녕하세요, 허진성입니다 👋</h1>
+<div align="center">
 
-<p align="center">
-  <strong>데이터를 의사결정으로, AI를 실제 업무 시스템으로 연결합니다.</strong>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=640&lines=Hi%2C+I'm+Hote+%F0%9F%91%8B;Data+%C2%B7+BI+%C2%B7+AI+Workflow+Engineer;Tableau+Ambassador+%7C+n8n+Ambassador;Turning+data+into+next+actions." alt="Typing SVG" />
+
+<p>
+  <a href="https://www.data-learners.com/"><img src="https://img.shields.io/badge/data--learners.com-0D1117?style=for-the-badge&logo=googlechrome&logoColor=58A6FF" alt="Data Learners"></a>
+  <a href="https://data-learners.wikidocs.net/"><img src="https://img.shields.io/badge/WikiDocs-0D1117?style=for-the-badge&logo=bookstack&logoColor=3FB950" alt="WikiDocs"></a>
+  <a href="https://h-ote.tistory.com/"><img src="https://img.shields.io/badge/Blog-0D1117?style=for-the-badge&logo=tistory&logoColor=FF5A4A" alt="Blog"></a>
+  <a href="https://www.linkedin.com/in/hote/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"></a>
+  <a href="https://public.tableau.com/app/profile/hote/vizzes"><img src="https://img.shields.io/badge/Tableau_Public-0D1117?style=for-the-badge&logo=tableau&logoColor=E97627" alt="Tableau Public"></a>
+  <a href="https://www.salesforce.com/trailblazer/hote"><img src="https://img.shields.io/badge/Trailblazer-0D1117?style=for-the-badge&logo=salesforce&logoColor=00A1E0" alt="Trailblazer"></a>
 </p>
 
-<p align="center">
-  Data · BI · AI Engineer &nbsp;|&nbsp; Tableau Certified Instructor &nbsp;|&nbsp; Author & Educator
+</div>
+
+```python
+from dataclasses import dataclass, field
+
+@dataclass
+class Hote:
+    name: str = "허진성 (Jinseong Heo)"
+    location: str = "Seoul, KR 🇰🇷"
+    roles: list = field(default_factory=lambda: [
+        "Data Analyst", "BI Engineer", "AI Workflow Builder", "Data Educator",
+    ])
+    community: list = field(default_factory=lambda: [
+        "Tableau Ambassador 2026·2027",
+        "n8n Ambassador",
+        "2× DataFam Rising Star",
+    ])
+    teaching: str = "1,000+ learners on Tableau, SQL, Python, ML, n8n"
+    writing: list = field(default_factory=lambda: [
+        "Data Visualization with Tableau (WikiDocs)",
+        "ADsP 수험서 공동 집필 (시대에듀)",
+    ])
+    motto: str = "좋은 분석은 숫자에서 끝나지 않고, 다음 행동을 분명하게 만든다."
+
+    def now(self) -> list[str]:
+        return [
+            "🏭 제조·품질 데이터 이상탐지 & 예지보전",
+            "⚙️ n8n + LLM 기반 데이터 워크플로 자동화",
+            "📚 실무형 데이터 교재와 강의 콘텐츠 제작",
+        ]
+```
+
+## 🛠️ Tech Stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,postgres,sklearn,pytorch,js,html,css,swift&theme=dark" alt="Languages & ML" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,notion,obsidian,vercel&theme=dark" alt="Tools" />
 </p>
-
-<p align="center">
-  <a href="https://heoquixote.github.io/data-learners/"><img src="https://img.shields.io/badge/Data_Learners-교육_사이트-1F6FEB?style=flat-square&logo=googleclassroom&logoColor=white" alt="Data Learners"></a>
-  <a href="https://h-ote.tistory.com/"><img src="https://img.shields.io/badge/Blog-h--ote.tistory.com-FF5A4A?style=flat-square&logo=tistory&logoColor=white" alt="Blog"></a>
-  <a href="https://www.linkedin.com/in/hote/"><img src="https://img.shields.io/badge/LinkedIn-hote-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://public.tableau.com/app/profile/hote/vizzes"><img src="https://img.shields.io/badge/Tableau_Public-hote-E97627?style=flat-square&logo=tableau&logoColor=white" alt="Tableau Public"></a>
-  <img src="https://komarev.com/ghpvc/?username=heoquixote&style=flat-square&color=4C8BF5" alt="Profile views">
-</p>
-
----
-
-## About me
-
-저는 **Tableau, SQL, Python, 통계, 머신러닝**을 바탕으로 데이터를 분석하고,
-사람이 더 빠르고 정확하게 판단할 수 있는 **대시보드·분석 제품·AI 워크플로**를 만듭니다.
-
-도구의 사용법만 설명하기보다 **왜 그렇게 설계하는지**, **실무에서 언제 실패하는지**,
-**어떤 대안이 있는지**까지 전달하는 글과 교육 콘텐츠를 만들고 있습니다.
-
-- 📊 복잡한 데이터를 명확한 BI와 시각적 스토리로 바꿉니다.
-- 🤖 생성형 AI와 에이전트를 분석·개발 업무에 연결합니다.
-- 📚 SQL, 통계, 머신러닝, Tableau, Codex, n8n 실무서를 집필합니다.
-- 🎓 **Tableau Certified Instructor · 2× DataFam Rising Star**로, 『태블로를 활용한 데이터 시각화』를 집필했습니다.
-- 🧭 재현 가능한 분석과 바로 적용할 수 있는 예제를 지향합니다.
-
-## 🎓 Data Learners — 실무형 데이터 교육
-
-**[heoquixote.github.io/data-learners](https://heoquixote.github.io/data-learners/)**
-
-SQL, Python, Tableau, 통계, AI 자동화를 "실제 업무 문제와 프로젝트 중심으로" 가르치는 교육 브랜드입니다.
-**LEARN → BUILD → EXPLAIN → APPLY** 4단계 학습 시스템으로, 이해에서 결과물까지 완성하는 것을 목표로 합니다.
-
-| 과정 | 핵심 스킬 |
-|---|---|
-| Tableau 실무 시각화 | Data to Story, 대시보드 UX, Cloud 공유 |
-| SQL 데이터 분석 | Query to Insight, CTE, 케이스 분석 |
-| Python 데이터 워크 | Code to Analysis, pandas EDA·전처리 |
-| n8n 데이터 워크플로우 | Work to Flow, API·DB·AI 연결 자동화 |
-| 통계적 의사결정 | 가설검정·회귀·실험설계 |
-
-TeamSparta, Codeit, 국민대학교, LG전자, NHN, CJ Freshway 등 **12개 이상의 기관**에서 기업 교육·부트캠프·워크숍을 진행했습니다.
-
-## Featured projects
-
-| Project | What it is | Focus |
-|---|---|---|
-| [Data Learners](https://github.com/heoquixote/data-learners) | 실무 프로젝트 기반 데이터 교육 사이트 | `Education` `SQL` `Tableau` `AI` |
-| [Tableau 실무 가이드](https://github.com/heoquixote/tableau-book) | 차트 작성부터 계산, 전처리, 대시보드, Cloud 공유까지 다루는 실무형 교재 | `Tableau` `BI` `Visualization` |
-| [머신러닝 기초](https://github.com/heoquixote/machine-learning-book) | 문제 정의부터 모델 평가·해석까지 다루는 머신러닝 입문서 | `Machine Learning` `Python` |
-| [통계 기초](https://github.com/heoquixote/statistics-book) | 기술통계부터 가설검정, 회귀, A/B 테스트까지 연결하는 입문서 | `Statistics` `Experiment` |
-| [n8n 데이터 워크플로우](https://github.com/heoquixote/n8n-book) | API·DB·AI를 연결하는 n8n 자동화 구축 가이드 | `n8n` `Automation` |
-| [Codex와 협업하는 개발 워크플로](https://github.com/heoquixote/developing-with-Codex) | 프롬프트부터 로컬 개발, 리뷰, 자동화, 운영까지 다루는 실전 가이드 | `Codex` `AI Agent` |
-| [예지보전 Action Center](https://github.com/heoquixote/predictive-maintenance-action-center) | 설비 데이터를 의사결정과 후속 조치로 연결하는 분석 제품 | `Predictive Maintenance` `Analytics` |
-| [투자 대시보드](https://github.com/heoquixote/invest-dashboard) | 투자 데이터를 탐색하고 핵심 지표를 모니터링하는 대시보드 | `Dashboard` `JavaScript` |
-| [국민대 Practical DS](https://github.com/heoquixote/kmu-practical-ds-2024) | AI·빅데이터 MBA 과정의 실습 중심 데이터 사이언스 자료 | `Python` `Data Science` |
-
-## Writing & learning series
-
-현재 다음 주제의 실무형 자료를 꾸준히 만들고 있습니다.
-
-- **Data foundation** — SQL, 통계, 데이터 분석
-- **Visual analytics** — Tableau, 대시보드 설계, 데이터 스토리텔링
-- **Machine learning** — 문제 정의, 모델 평가, 해석, 운영
-- **AI engineering** — Codex, 에이전트형 개발, n8n 데이터 워크플로
-- **Domain analytics** — 제조·품질 데이터와 예지보전
-
-## Core stack
 
 <p>
   <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" alt="Tableau">
-  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=111111" alt="DuckDB">
+  <img src="https://img.shields.io/badge/Salesforce-00A1E0?style=flat-square&logo=salesforce&logoColor=white" alt="Salesforce">
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n">
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas">
+  <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=111111" alt="DuckDB">
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter">
+  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude">
   <img src="https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openai&logoColor=white" alt="Codex">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
 </p>
 
----
+## 🚀 Featured Projects
 
-<p align="center">
-  <strong>좋은 분석은 숫자를 보여주는 데서 끝나지 않고, 다음 행동을 분명하게 만듭니다.</strong>
-</p>
+| Project | Description | Stack |
+|:--|:--|:--|
+| 🎓 [**data-learners.com**](https://github.com/heoquixote/heoquixote.github.io) | 실무 프로젝트 기반 데이터 교육 사이트 | `HTML` `GitHub Pages` |
+| 🏭 [**predictive-maintenance-action-center**](https://github.com/heoquixote/predictive-maintenance-action-center) | 설비 센서 데이터를 경보·후속 조치로 연결하는 예지보전 분석 제품 | `JavaScript` `Analytics` |
+| 📈 [**invest-dashboard**](https://github.com/heoquixote/invest-dashboard) | 투자 지표 탐색·모니터링 대시보드 | `JavaScript` `Dashboard` |
+| 💬 [**n8n-chat-demo**](https://github.com/heoquixote/n8n-chat-demo) | n8n Chat Trigger + `@n8n/chat` 임베드 데모 | `n8n` `GitHub Pages` |
+| ⏱️ [**pomo-timer**](https://github.com/heoquixote/pomo-timer) | 집중 시간을 요일×시각 히트맵으로 기록하는 macOS 메뉴바 뽀모도로 | `Swift` `macOS` |
+| 📊 [**claude-usage-monitor**](https://github.com/heoquixote/claude-usage-monitor) | Claude 사용량 모니터링 도구 | `Python` |
+
+## 📚 Open Books (WikiDocs)
+
+| Book | Topic |
+|:--|:--|
+| [Data Visualization with Tableau](https://github.com/heoquixote/Data_Visualization_with_Tableau) | Tableau 차트·계산·대시보드 실무 |
+| [tableau-book](https://github.com/heoquixote/tableau-book) | Tableau 실무 가이드 |
+| [sql-basic](https://github.com/heoquixote/sql-basic) | SQL 기초부터 분석 쿼리까지 |
+| [statistics-book](https://github.com/heoquixote/statistics-book) | 기술통계·가설검정·회귀·A/B 테스트 |
+| [n8n-book](https://github.com/heoquixote/n8n-book) | n8n 기반 데이터 워크플로 구축 |
+| [developing-with-Codex](https://github.com/heoquixote/developing-with-Codex) | Codex와 협업하는 개발 워크플로 |
+| [engineer-quality-management](https://github.com/heoquixote/engineer-quality-management) | 품질경영 엔지니어링 |
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=heoquixote&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=heoquixote&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Top languages" />
+  <br/>
+  <img src="https://streak-stats.demolab.com?user=heoquixote&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=heoquixote&style=flat-square&color=58A6FF&label=profile+views" alt="Profile views" />
+</div>
