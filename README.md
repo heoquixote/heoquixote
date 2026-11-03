@@ -88,13 +88,12 @@ class Hote:
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=heoquixote&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=heoquixote&theme=github_dark" alt="Profile details" />
   <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=heoquixote&theme=github-compact&hide_border=true&area=true" alt="CAND activity graph" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=heoquixote&theme=github_dark" alt="CAND summary stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=heoquixote&theme=github_dark" alt="CAND summary langs" />
-  <img src="https://github-profile-trophy.vercel.app/?username=heoquixote&theme=onedark&no-frame=true&no-bg=true&row=1&column=6" alt="CAND trophy" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=heoquixote&show_icons=true&theme=github_dark&hide_border=true" alt="CAND stats mirror" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=heoquixote&theme=github_dark" alt="GitHub stats" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=heoquixote&theme=github_dark" alt="Repos per language" />
+  <br/>
+  <img src="https://streak-stats.demolab.com?user=heoquixote&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
 </div>
 
 <div align="center">
