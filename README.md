@@ -16,7 +16,7 @@
 ```python
 class DataLearners:
     """배운 것을 실력으로, 실력을 결과로."""
-    instructor = "허진성 (Hote)"
+    instructor = "허진성"
     stack      = ["SQL", "Python", "Tableau", "Statistics", "ML", "n8n"]
     method     = "LBL(개념·실습) → PBL(프로젝트·멘토링)"
     impact     = {"learners": "1,000+", "trainings": "50+", "KDT NPS": 93.5}
